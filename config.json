@@ -1,7 +1,5 @@
 {
-  "sql_query": "SELECT * 
-FROM `datastax-datalake.astra_fcpmo.vwClassicProductCostInternalDatabases`
-WHERE status NOT IN ("ACTIVE", "PARKED") AND organization_email NOT LIKE "%datastax.com%" ",
+  "sql_query": "SELECT * FROM `datastax-datalake.astra_fcpmo.vwClassicProductCostInternalDatabases` WHERE status NOT IN (\"ACTIVE\", \"PARKED\") AND organization_email NOT LIKE \"%datastax.com%\"",
   "jira_board": "PLPE--Unit Econimics",
   "parent": "PLPE-7733"
 }
