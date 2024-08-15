@@ -1,5 +1,5 @@
 {
   "sql_query": "SELECT * FROM `datastax-datalake.astra_fcpmo.vwClassicProductCostInternalDatabases` WHERE status NOT IN (\"ACTIVE\", \"PARKED\") AND organization_email NOT LIKE \"%datastax.com%\" and cluster_id = \"bb469a23-3683-4b1a-bf1c-4d04be4d735d\"",
-  "jira_board": "PLPE",
+  "jira_board": "PLPE--Unit Economics",
   "parent": "PLPE-7733"
 }
